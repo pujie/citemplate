@@ -3,6 +3,9 @@ class Surveys extends CI_Controller{
     function __construct(){
         parent::__construct();
     }
+    function edit(){
+        $this->twig->display('sales/surveys/edit');
+    }
     function index(){
         if($this->uri->total_segments()<3){
             $segment = 1;
