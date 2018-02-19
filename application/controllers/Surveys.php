@@ -24,6 +24,7 @@ class Surveys extends CI_Controller{
         $config['cur_tag_close'] = '</a>';
         $config['prev_link'] = '<i class="icon-double-angle-left"></i>';
         $config['next_link'] = '<i class="icon-double-angle-right"></i>';
+
         $this->pagination->initialize($config);
         $links =  $this->pagination->create_links();
         $this->twig->display('sales/surveys/index', array(
