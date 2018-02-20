@@ -16,3 +16,11 @@
     padding: 10px;
     color: tomato;
 }
+.profile-activity .number{
+    border-radius: 100%;
+    max-width: 36px;
+    margin-right: 10px;
+    margin-left: 0px;
+    box-shadow: none;
+    border: 2px solid #c9d6e5;
+}

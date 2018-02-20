@@ -39,4 +39,7 @@ class Surveys extends CI_Controller{
     function installadd(){
         $this->twig->display('sales/surveys/installadd', []);
     }
+    function report(){
+        $this->twig->display('sales/surveys/report');
+    }
 }
